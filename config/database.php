@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $db_name = 'document_vault';
-    private $username = 'root';
-    private $password = '';
+    private $db_name = 'document_vault'; // develope_document_vault
+    private $username = 'root'; // develope_document_vault
+    private $password = ''; // 496cS5XxxKVUBeGQbWKG
     private $conn;
 
     public function getConnection() {
